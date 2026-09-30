@@ -2,13 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def plot_quadratic(a, b, c):
-    # Write your code here
     x = np.linspace(-10, 10, 400)
     y = a * x**2 + b * x + c
     plt.plot(x, y)
     plt.xlabel("x")
     plt.ylabel("y")
-    plt.title(f"Graph of y = {a}x² + {b}x + {c}")
+    # Use "^2" instead of Unicode superscript
+    plt.title(f"Graph of y = {a}x^2 + {b}x + {c}")
     plt.grid(True)
     plt.show()
 
