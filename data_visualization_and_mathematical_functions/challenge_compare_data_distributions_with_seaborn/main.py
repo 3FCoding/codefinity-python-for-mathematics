@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 
 def compare_class_scores():
     # Write your code here
-    import random
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-def compare_class_scores():
     class_a_scores = [random.randint(60, 100) for _ in range(30)]
     class_b_scores = [random.randint(55, 98) for _ in range(30)]
     data = [class_a_scores, class_b_scores]
